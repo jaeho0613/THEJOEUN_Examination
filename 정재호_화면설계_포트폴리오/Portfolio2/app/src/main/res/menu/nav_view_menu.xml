@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/menu_gallery"
+            android:icon="@drawable/ic_collections"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/menu_sildeshow"
+            android:icon="@drawable/ic_video"
+            android:title="SildeShow" />
+    </group>
+
+    <item android:title="하단 메뉴">
+        <menu>
+            <group
+                android:id="@+id/menu2"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_email"
+                    android:icon="@drawable/ic_email"
+                    android:title="이메일" />
+
+                <item
+                    android:id="@+id/menu_Info"
+                    android:icon="@drawable/ic_info"
+                    android:title="정보" />
+
+                <item
+                    android:id="@+id/menu_map"
+                    android:icon="@drawable/ic_map"
+                    android:title="위치" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
