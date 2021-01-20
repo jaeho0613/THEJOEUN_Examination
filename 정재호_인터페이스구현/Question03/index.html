@@ -6,7 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Question03</title>
   <link rel="stylesheet" href="style.css">
-  <script src="main.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(document).ready(function () {
+      $('.outer-menu-item').hover(function () {
+        $(this).find(".inner-menu").show();
+      }, function () {
+        $(this).find(".inner-menu").hide();
+      });
+    });
+  </script>
+
 </head>
 
 <body>

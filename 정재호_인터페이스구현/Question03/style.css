@@ -49,6 +49,8 @@ body{
 .outer-menu-item {
   float: left;
   position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .outer-menu-item:hover {
@@ -81,7 +83,7 @@ body{
 }
 
 .inner-menu-item > a:hover {
-  display: block;
+  background: black;
   color: white;
 }
 
