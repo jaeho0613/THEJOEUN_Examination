@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question02</title>
+  <style>
+    #button1 {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <!-- 필수 사항 필드 -->
+    <fieldset>
+      <legend>필수사항</legend>
+      <table>
+        <!-- 아이디 -->
+        <tr>
+          <th>아이디</th>
+          <td><input type="text"></td>
+        </tr>
+        <!-- 암호 -->
+        <tr>
+          <th>암호</th>
+          <td><input type="password"></td>
+        </tr>
+        <tr>
+          <!-- 이름 -->
+          <th>이름</th>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <!-- 휴대폰 -->
+          <th>휴대폰</th>
+          <td>
+            <select>
+              <option value="">010</option>
+              <option value="">011</option>
+            </select>
+            <input type="text"> -
+            <input type="text">
+          </td>
+        </tr>
+        <tr>
+          <!-- 이메일 -->
+          <th>이메일</th>
+          <td>
+            <input type="email"> @
+            <input type="email">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <!-- 선택 사항 필드 -->
+    <fieldset>
+      <legend>선택사항</legend>
+      <table>
+        <tr>
+          <!-- 성별 -->
+          <th>성별</th>
+          <td>
+            <input type="radio" name="gender"> 남
+            <input type="radio" name="gender"> 여
+          </td>
+        </tr>
+        <tr>
+          <!-- 관심사 -->
+          <th>관심사</th>
+          <td>
+            <input type="checkbox"> HTML5
+            <input type="checkbox"> CSS3
+            <input type="checkbox"> JavaScript
+            <input type="checkbox"> jQuery
+          </td>
+        </tr>
+        <tr>
+          <!-- 인사말 -->
+          <th>인사말</th>
+          <td><textarea cols="30" rows="2"></textarea></td>
+        </tr>
+      </table>
+    </fieldset>
+    <!-- 버튼 -->
+    <input id="button1" type="button" value="회원가입">
+    <input id="button2" type="button" value="초기화">
+  </form>
+</body>
+
+</html>
