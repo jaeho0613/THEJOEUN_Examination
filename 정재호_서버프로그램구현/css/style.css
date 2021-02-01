@@ -1,0 +1,361 @@
+/* Global */
+
+:root {
+  --color-blue: #007bff;
+  --color-indigo: #6610f2;
+  --color-purple: #6f42c1;
+  --color-pink: #e83e8c;
+  --color-red: #dc3545;
+  --color-green: #28a745;
+  --color-teal: #20c997;
+  --color-cyan: #17a2b8;
+  --color-white: #fff;
+  --color-gray: #6c757d;
+  --color-gray-dark: #343a40;
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-success: #28a745;
+  --color-info: #17a2b8;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+}
+
+* {
+  font-family: Regular;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  cursor: default;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--color-white);
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.navbar__menu li {
+  padding: 0px 12px;
+  margin: 0 4px;
+  font-weight: var(--weight-bold);
+  font-size: var(--font-regular);
+}
+
+.navbar__menu li:hover {
+  color: var(--color-red);
+}
+
+.navbar__toogleBtn {
+  position: absolute;
+  top: 20px;
+  right: 32px;
+  font-size: 30px;
+  display: none;
+  background: var(--color-white);
+}
+
+.navbar__menu a {
+  font-size: 20px;
+  font-family: Light;
+  font-weight: var(--weight-bold);
+}
+
+/* Home */
+#home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-white);
+  font-size: var(--font-large);
+  background: var(--color-gray-dark);
+  max-height: 1200px;
+  padding-top: 400px;
+  padding-bottom: 300px;
+}
+
+.home__icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.home__icon i {
+  margin: 16px 16px;
+  font-size: 70px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px 20px;
+  background-color: var(--color-white);
+  font-family: sans-serif, sans-serif;
+}
+
+.about__description {
+  font-size: var(--font-regular);
+  padding-top: 20px;
+  max-width: 880px;
+}
+
+.about__description span {
+  color: var(--color-red);
+  font-weight: var(--weight-bold);
+}
+
+.about__title {
+  font-size: var(--font-medium);
+}
+
+#about img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+/* Skills */
+#skills {
+  background: var(--color-gray-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  color: var(--color-white);
+}
+
+.skills__title {
+  font-size: var(--font-medium);
+}
+
+.skills__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.skill__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skil__bar {
+  width: 35%;
+  height: 3px;
+  background: var(--color-gray);
+}
+
+.skill__value {
+  background: var(--color-red);
+  height: 3px;
+}
+
+.skill img {
+  margin-bottom: 7px;
+}
+
+.skil__bar {
+  margin-top: 3px;
+}
+
+/* Portfolio */
+
+#portfolio {
+  margin: 20px;
+}
+
+.portfolio__header {
+  font-size: var(--font-medium);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  margin-bottom: 40px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Contact */
+#contact {
+  background: var(--color-gray-dark);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  color: var(--color-white);
+}
+
+.contact__title {
+  font-size: var(--font-medium);
+  margin-bottom: 10px;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact__icon {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.contact__icon i:hover {
+  color: var(--color-red);
+}
+
+/* Copyright */
+.reserved {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: var(--color-gray-dark);
+  color: var(--color-white);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* Menu */
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar__menus {
+    width: 100%;
+  }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__menu li {
+    padding: 5px;
+  }
+
+  .navbar__menu a {
+    font-size: 20px;
+  }
+
+  .navbar__menu.active {
+    display: flex;
+  }
+
+  .navbar__toogleBtn {
+    display: block;
+  }
+
+  /* home */
+  #home {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  .home__title {
+    font-size: var(--font-medium);
+  }
+
+  .home__icon i {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin: 16px 8px;
+  }
+
+  /* About */
+  #about img {
+    width: 300px;
+    height: 300px;
+  }
+}

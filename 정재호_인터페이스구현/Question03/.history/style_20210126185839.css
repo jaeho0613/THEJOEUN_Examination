@@ -61,7 +61,6 @@ body {
 }
 
 .outer-menu-item {
-  float: left;
   position: relative;
   padding-left: 10px;
   padding-right: 10px;

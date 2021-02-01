@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FontAwesome Libary -->
+    <script
+      src="https://kit.fontawesome.com/7d6b56a039.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SwiperJS Libary -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- My CSS, JS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <script src="js/main.js" async></script>
+
+    <title>Jaeho Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__icon">
+        <img src="img/home__icon.png" width="100px" />
+      </div>
+      <div class="navbar__menus">
+        <ul class="navbar__menu">
+          <li class="home" data-link="#home">Home</li>
+          <li class="about" data-link="#about">About</li>
+          <li class="skills" data-link="#skills">Skills</li>
+          <li class="portfolio" data-link="#portfolio">Protfolio</li>
+          <li class="contact" data-link="#contact">Contact</li>
+        </ul>
+
+        <!-- Toggle Button -->
+        <button class="navbar__toogleBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__content">
+        <div class="home__title">
+          <h1>I'm BackEnd Developer</h1>
+          <p>정재호 포트폴리오</p>
+        </div>
+        <div class="home__icon">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-android"></i>
+          <i class="fab fa-unity"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="about__title">
+        <h1>About</h1>
+      </div>
+      <div class="about__description">
+        <img src="img/full_img_2.jpg" />
+        <div class="about__description">
+          <p>
+            한 오디션 참가가 '나는 노란색 신호등 같은 가수다' 라는 소개를
+            했습니다. 빨간색과 푸른색 그 사이에서 딱 3초, 잠깐 빛나고 사라지는
+            노란색 불을 보며 기회가 닿을 때마다 최선을 다해서 빛내는 모습을
+            자신과 비슷하다고 표현을 했습니다.
+            <br /><br />
+            이 말이 꽤 감동적이었고 제가 되고 싶은 사람과 닮아 있습니다. 노란색
+            신호등 처럼
+            <span>내게 주어진 일을 최선을 다해서 수행</span>하고 잠깐 빛나고
+            사라지지만 없어서는 안되는 불빛처럼
+            <span>꼭 필요한 사람이 되고 싶습니다.</span>
+            <br /><br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="skills__title">
+        <h1>Skill</h1>
+      </div>
+      <!-- Front - End -->
+      <div class="skills__container">
+        <h2>Front-End</h2>
+        <div class="skill__content">
+          <div class="skill">
+            <img src="img/js_icon.png" />
+            <p>JavaScripts - 75%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="img/html_icon.png" />
+            <p>HTML - 90%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="img/css_icon.png" />
+            <p>CSS - 85%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="img/c_shop_icon.png" />
+            <p>C# - 99%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 99%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Back - End -->
+      <div class="skills__container">
+        <h2>Back-End</h2>
+        <div class="skill__content">
+          <div class="skill">
+            <img src="img/spring_icon.png" />
+            <p>Spring - 20%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 20%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="img/java_icon.png" />
+            <p>Java - 80%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Etc -->
+      <div class="skills__container">
+        <h2>etc</h2>
+        <div class="skill__content">
+          <div class="skill">
+            <img src="img/google_icon.png" />
+            <p>Google - 99%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 99%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="img/git_icon.png" />
+            <p>Git - 75%</p>
+            <div class="skil__bar">
+              <div class="skill__value" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="portfolio__header">
+        <h1>Portfolio</h1>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="protfolio__img">
+              <a
+                href="https://github.com/jaeho0613/Unity_Color"
+                target="_blank"
+              >
+                <img src="img/project_colour.png" />
+              </a>
+            </div>
+            <div class="protfolio__title">
+              <h1>Co!our</h1>
+              <h2>20.04.11 ~ 20.04.30</h2>
+              <h3>Unity 2D / C#</h3>
+              <h4>MWU Korea Award 2020 공모전 작품</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="protfolio__img">
+              <a
+                href="https://github.com/jaeho0613/AutoBot_OpenSource"
+                target="_blank"
+              >
+                <img src="img/project_autobot.png" />
+              </a>
+            </div>
+            <div class="protfolio__title">
+              <h1>AutoBot Project</h1>
+              <h2>20.07.11 ~ 진행중</h2>
+              <h3>Window Program / C#</h3>
+              <h4>WinForm 기반 게임 유틸리티 프로그램</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="protfolio__img">
+              <a
+                href="https://github.com/jaeho0613/WSVA302_CCAMO"
+                target="_blank"
+              >
+                <img src="img/project_ccamo.png" />
+              </a>
+            </div>
+            <div class="protfolio__title">
+              <h1>CCAMO</h1>
+              <h2>21.01.07 ~ 21.01.13</h2>
+              <h3>Android / Java</h3>
+              <h4>팀 프로젝트로 진행한 Cafe App 입니다.</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact__title">
+        <h1>Contact Me!</h1>
+      </div>
+      <div class="contact__content">
+        <p>발전하는 개발자가 되겠습니다.</p>
+        <br />
+        <p>ywm2004@gmail.com</p>
+        <div class="contact__icon">
+          <a href="https://github.com/jaeho0613" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://jaeho0613.tistory.com/" target="_blank">
+            <i class="fab fa-tumblr-square"></i><br />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="reserved">
+      <i class="far fa-copyright">Jaeho All Rights Reserved.</i>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+  </body>
+</html>
