@@ -1,0 +1,34 @@
+/* Global Setting */
+@font-face {
+	src: url("../font/Howvetica-Aayp.ttf");
+	font-family: "hel";
+}
+
+* {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li.nav-item,
+h2,
+h6 {
+	font-weight: bold;
+	font-family: 'hel';
+}
+
+section {
+	margin-bottom: 160px !important;
+}
+
+.card {
+	margin: 2.5rem;
+}

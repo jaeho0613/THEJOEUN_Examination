@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="model.dao" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="3643" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="model.dto" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="4306" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="model.standard" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/standard" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="113" x="3784" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="4" language="java" name="model.dao.UserDAO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dao/UserDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="186" x="627" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="model.dao.ProductDAO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dao/ProductDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="329" x="3937" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.dao.OrderDAO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dao/OrderDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="186" x="1964" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="model.dto.SizeSetDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/SizeSetDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="159" x="5008" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="model.dto.OrdersDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/OrdersDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="174" x="1750" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="model.dto.ProductDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/ProductDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="657" width="303" x="4775" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="model.dto.ColorSetDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/ColorSetDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="192" x="4543" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="model.dto.CategoryDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/CategoryDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="185" x="4318" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="model.dto.KakaoPayReadDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/KakaoPayReadDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="201" x="1509" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="model.dto.UserDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/UserDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="222" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="model.dto.ImagePathDTO" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/dto/ImagePathDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="193" x="4775" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="model.standard.Userable" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/standard/Userable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="158" x="627" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="16" language="java" name="model.standard.Productable.Set" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/standard/Productable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="119" x="3937" y="1017"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="17" language="java" name="model.standard.Orderable" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/standard/Orderable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="130" x="1964" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="model.standard.Productable" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/model/standard/Productable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="329" x="3937" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="servlet.CategoryServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/CategoryServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="288" x="853" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="servlet.ModifyServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/ModifyServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="288" x="2190" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="servlet.MainServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/MainServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="288" x="4447" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="servlet.KakaoPayApprovalServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/KakaoPayApprovalServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="284" x="303" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="servlet.LoginServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/LoginServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="2518" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="servlet.KakaoPayReadyServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/KakaoPayReadyServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="288" x="3315" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="servlet.ProductServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/ProductServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="288" x="1181" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="servlet.JoinServlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet/JoinServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="288" x="2987" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="27" language="java" name="servlet" project="BlackUp_Clone_Project" 
+    file="/BlackUp_Clone_Project/src/servlet" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="2846" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <association id="28">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="29" name="categoryList"/>      
+      <multiplicity id="30" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="32" name="colorSetList"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="35" name="sizeSetList"/>      
+      <multiplicity id="36" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <nesting id="40">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <association id="41">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="42" name="imagePathList"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

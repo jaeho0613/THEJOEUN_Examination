@@ -1,0 +1,57 @@
+/* Main Slide setting */
+.product-title {
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: -3px;
+  word-spacing: 5px;
+  color: black;
+  padding: 0 2rem;
+}
+
+.carousel-indicators button {
+  height: 5px !important;
+}
+
+.carousel-indicators button.active {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  font-size: 12px;
+}
+
+/* Today`s new item Setting */
+.card-body>* {
+  font-family: "Nanum Gothic";
+  font-size: 12px;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+span.border {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 1px;
+  width: 12px;
+}
+
+.vbtn {
+  width: 100px;
+  height: 34px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1550px;
+  }
+}
